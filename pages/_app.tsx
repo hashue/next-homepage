@@ -1,7 +1,6 @@
 import "../styles/global.css";
-import "tailwindcss/tailwind.css"
-const App = ({ Component, pageProps }) => {
-    return <Component {...pageProps} />;
-};
+import "tailwindcss/tailwind.css";
 
-export default App;
+export default function App({ Component, pageProps }) {
+    return <Component {...pageProps} />;
+}
