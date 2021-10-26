@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import Nav from "../components/navbar";
 import Logo from "../components/logo";
-import Link from "next/link";
 import {MyHistory, BioItem, Section} from "../components/history";
 
 const Home: NextPage = () => {
@@ -42,12 +41,15 @@ const Home: NextPage = () => {
             <BioItem year="2020" description="おおいたヒューマンフェスティバル webサイト開発メンバーとして参加" />
             <BioItem year="2020" description="サンシステム アルバイト入社" />
 
-            {/*
             <Section>Platform</Section>
-            <Link href="https://github.com/hashue/">Github</Link>
-            <Link href="https://zenn.dev/hasu_83">Zenn</Link>
-            <p style={{textAlign:"center",marginTop:"6rem"}} >© 2021 Hasu. All Rights Reserved.</p>
-            */}
+            <ul>
+                <li style={{listStyle:"none",marginBottom:"1.3rem"}}><a href="https://github.com/hashue/">GitHub</a></li>
+                <li style={{listStyle:"none",marginBottom:"1.3rem"}} ><a href="https://twitter.com/83_hasu/">Twitter</a></li>
+                <li style={{listStyle:"none",marginBottom:"1.3rem"}} ><a href="https://zenn.dev/hasu_83">Zenn</a></li>
+                <li style={{listStyle:"none",marginBottom:"1.3rem"}} ><a href="https://qiita.com/7321hasu">Qiita</a></li>
+            </ul>
+            <p style={{textAlign:"center",margin:"6rem 0 3rem 0"}} >© 2021 Hasu. All Rights Reserved.</p>
+
         </div>
     );
 };

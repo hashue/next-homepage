@@ -9,7 +9,7 @@ const Section = styled.h3`
 text-decoration: underline;
 text-underline-offset: 6px;
 text-decoration-thickness: 4px;
-margin: 4rem 0 2rem 0;
+margin: 2rem 0;
 `
 
 const MyHistory = ({section, description}) =>{
