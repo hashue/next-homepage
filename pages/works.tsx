@@ -7,15 +7,15 @@ import WorkItem from "../components/work";
 
 const Works: NextPage = () => {
     return (
-        <div style={{ maxWidth: "700px", width: "70%", margin: "0 auto" }}>
+        <div style={{ maxWidth: "700px", width: "40%", margin: "0 auto" }}>
             <Nav />
             <CircleLogo src="/images/logo.png" />
             <Section>Works</Section>
             <div
                 style={{
                     display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))",
-                    gap: "35px",
+                    gridTemplateColumns: "repeat(auto-fit,minmax(230px,1fr))",
+                    gap: "24px",
                 }}
             >
                 <WorkItem

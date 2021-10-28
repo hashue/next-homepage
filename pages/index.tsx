@@ -6,9 +6,8 @@ import { MyHistory, BioItem, Section } from "../components/history";
 
 const Home: NextPage = () => {
     return (
-        <div style={{ maxWidth: "700px", width: "80%", margin: "0 auto" }}>
+        <div style={{ maxWidth: "700px", width: "38%", margin: "0 auto" }}>
             <Nav />
-
             <CircleLogo src="/images/logo.png" />
 
             <h1 style={{ fontSize: "2.6rem", textAlign: "center", margin: "6rem 0 1rem 0" }}>
@@ -21,9 +20,9 @@ const Home: NextPage = () => {
             <MyHistory
                 section="About"
                 description="
-                      2003年生れ。小学一年生のときにPCを初めて触り興味を持つ。 
-                    その後小学五年生のときにプログラミングに出会い学習を開始。
-                    現在はWeb制作を中心に学習中"
+              2003年生れ。小学一年生のときにPCを初めて触り興味を持つ。 
+            その後小学五年生のときにプログラミングに出会い学習を開始。
+            現在はWeb制作を中心に学習中"
             />
 
             <MyHistory section="Biography" description="" />
