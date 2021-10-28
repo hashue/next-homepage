@@ -3,9 +3,9 @@ import styled from "@emotion/styled";
 
 const NavLinkItem = styled.div`
     padding-top: 0.5rem;
-    padding: ${(props) => (props.$title ? "1.5rem 2rem 1.5rem 1rem" : " 1.8rem 1rem 0 1rem ")};
-    font-size: ${(props) => (props.$title ? "1.4rem" : "1rem")};
-    font-weight: ${(props) => (props.$title ? "bold" : "600")};
+    padding: ${(props) => (props.name ? "1.5rem 2rem 1.5rem 1rem" : " 1.8rem 1rem 0 1rem ")};
+    font-size: ${(props) => (props.name ? "1.4rem" : "1rem")};
+    font-weight: ${(props) => (props.name ? "bold" : "600")};
 `;
 
 const Nav = () => {
@@ -23,7 +23,7 @@ const Nav = () => {
                 paddingLeft: "30vw",
             }}
         >
-            <NavLinkItem $title>
+            <NavLinkItem name>
                 <Link href="/">Hasu</Link>
             </NavLinkItem>
             <NavLinkItem>
