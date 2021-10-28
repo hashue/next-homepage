@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Nav from "../components/navbar";
-import Logo from "../components/logo";
+import CircleLogo from "../components/logo";
+import Footer from "../components/footer";
 import { MyHistory, BioItem, Section } from "../components/history";
 
 const Home: NextPage = () => {
@@ -8,16 +9,7 @@ const Home: NextPage = () => {
         <div style={{ maxWidth: "700px", width: "80%", margin: "0 auto" }}>
             <Nav />
 
-            <Logo
-                path="/imgaes/logo.png"
-                width="170"
-                height="170"
-                style={{
-                    borderRadius: "50%",
-                    display: "block",
-                    margin: "8rem auto 2rem auto",
-                }}
-            />
+            <CircleLogo src="/images/logo.png" />
 
             <h1 style={{ fontSize: "2.6rem", textAlign: "center", margin: "6rem 0 1rem 0" }}>
                 Hasu
@@ -61,9 +53,7 @@ const Home: NextPage = () => {
                     <a href="https://qiita.com/7321hasu">Qiita</a>
                 </li>
             </ul>
-            <p style={{ textAlign: "center", margin: "6rem 0 3rem 0" }}>
-                © 2021 Hasu. All Rights Reserved.
-            </p>
+            <Footer />
         </div>
     );
 };

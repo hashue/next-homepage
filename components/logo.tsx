@@ -1,8 +1,11 @@
 import styled from "@emotion/styled";
-import Image from "next/image";
 
-const Logo = ({ path, ...props }) => {
-    return <img src={path} alt="Logo" {...props} />;
-};
+const CircleLogo = styled.img`
+    border-radius: 50%;
+    display: block;
+    margin: 8rem auto 2rem auto;
+    width: 170px;
+    height: 170px;
+`;
 
-export default Logo;
+export default CircleLogo;
