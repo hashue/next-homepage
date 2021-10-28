@@ -7,7 +7,7 @@ import WorkItem from "../components/work";
 
 const Works: NextPage = () => {
     return (
-        <div style={{ maxWidth: "700px", width: "40%", margin: "0 auto" }}>
+        <div style={{ maxWidth: "700px", width: "50%", margin: "0 auto" }}>
             <Nav />
             <CircleLogo src="/images/logo.png" />
             <Section>Works</Section>

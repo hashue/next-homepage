@@ -6,7 +6,7 @@ import { MyHistory, BioItem, Section } from "../components/history";
 
 const Home: NextPage = () => {
     return (
-        <div style={{ maxWidth: "700px", width: "38%", margin: "0 auto" }}>
+        <div style={{ maxWidth: "700px", width: "50%", margin: "0 auto" }}>
             <Nav />
             <CircleLogo src="/images/logo.png" />
 
