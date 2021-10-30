@@ -22,7 +22,7 @@ const Nav = () => {
             style={{
                 display: "flex",
                 justifyContent: "flex-start",
-                backgroundColor: "#d9d0ab",
+                backgroundColor: "#faf7eb",
                 width: "100vw",
                 position: "fixed",
                 top: 0,
