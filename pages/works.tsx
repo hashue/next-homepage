@@ -37,6 +37,12 @@ const Works: NextPage = () => {
                     description="Rust製のメモ作成支援ツール"
                     url="https://crates.io/crates/rusmo"
                 />
+                <WorkItem
+                    img="/images/old-portfolio.png"
+                    title="ポートフォリオ"
+                    description="旧ポートフォリオ"
+                    url="https://hasu-83.herokuapp.com"
+                />
             </div>
             <Footer />
         </div>
